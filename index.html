@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+
+
+<!--Ruta al CSS-->
+<head>
+    <link href="fla.CSS" rel="stylesheet" type="text/css">
+</head>
+
+
+<!--Logo, Raya, busqueda, -->
+<div class="header">
+
+    <h2 class="logo">Art Gallery Modern Museum</h2>
+
+    <div class="menu">
+        <ul> 
+            <li><a href="nuevaobjetividad.HTML">Nueva Objetividad</a></li>
+            <li><a href="artdeco.HTML">Art Decó</a></li>
+            <li><a href="primitivismo.html">Primitivismo</a></li>
+            <li><a href="dalle.HTML">DALLE-E</a></li>
+        </ul>
+
+        <button id="theme-toggle">
+          <img src="emoji.svg" height="32px">
+        </button>
+        
+
+    </div>
+</div>
+
+<!--Imagenes que rotan-->
+
+<div class="body">
+    <script src="image.js"></script>
+    <img id="miImagen" src="art1.jpeg">
+</div>
+
+
+<!--MiniGaleria-->
+
+<div class="infoimagenes">
+
+    <div class="interes">
+<h1>Who might interest:   </h1>
+    </div>
+
+    <table>
+      <tr>
+        <td>
+          <img src="GRIEGOPAÑOSMOJADOS.jpg" alt="Imagen 1">
+          <div class="texto-imagen">Arte griego - Paños mojados con mármol</div>
+        </td>
+        <td>
+          <img src="MEZQUITA.jpg" alt="Imagen 2">
+          <div class="texto-imagen">Arquitectura otomana - Cisterna Basilica</div>
+        </td>
+        <td>
+          <img src="EGIPTO.jpg" alt="Imagen 3">
+          <div class="texto-imagen">Esculturas egipcias </div>
+        </td>
+      </tr>
+    </table>
+</div>
+   
+
+
+<!--FOOTER-->
+      
+    <div class="footer">
+      <h2>Be first to know: </h2>
+        <div class="tabla-contenedor">
+          <table>
+            <tr>
+              <th>Nombre</th>
+              <th>Correo electrónico</th>
+              <th>Edad</th>
+            </tr>
+            <tr>
+              <td><input type="text" name="nombre"></td>
+              <td><input type="email" name="correo"></td>
+              <td><input type="number" name="edad"></td>
+            </tr>
+          </table>
+        </div>
+          <input type="submit" value="Enviar" id="submitButton">
+    </div>     
+      
+</html>
